@@ -3,21 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".MainActivity">
-
-
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/activity_fragment_split_maps"
         android:name="edu.msudenver.cs3013.lab4group2.MapsFragment"
-        android:layout_width="match_parent"
-        android:layout_height="390dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
-
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/activity_fragment_split_detail"
         android:name="edu.msudenver.cs3013.lab4group2.DetailFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
         android:layout_weight="1" />
 </LinearLayout>

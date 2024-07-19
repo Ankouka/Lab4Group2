@@ -31,13 +31,15 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="" />
 
+        <!-- Add your own API key-->
+
         <!--<activity
             android:name=".MapsActivity"
             android:exported="false"
             android:label="@string/title_activity_maps" />/>-->
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
